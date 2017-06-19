@@ -1,0 +1,19 @@
+{
+  "name": "BinaryTree",
+  "version": "1.0.0",
+  "description": "Graphql server using dynamodb as its persistant data storage, specifically local dynamodb for development",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon Lambdas/BinaryTreeStream/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "aws-sdk": "^2.54.0",
+    "co-express": "^2.0.0",
+    "dynamodb-data-types": "^3.0.0",
+    "dyno": "^1.4.1",
+    "promise": "^7.1.1"
+  }
+}
